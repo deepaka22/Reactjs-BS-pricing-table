@@ -1,0 +1,104 @@
+#header{
+    background-color: #F4A100;
+    padding-left: 0px;
+    height: 50vh;
+     /* border-radius: 0px 0px 350px 0;  */
+   
+   
+}
+#htag{
+    color:#FFFFFF;
+    padding-top: 3vh;
+}
+
+#htag2{
+    color:#FFFFFF;
+    padding-top: 3vh;
+    opacity: 0.5;
+}
+#cardinfo{
+     margin-top: 5vh;
+     width: 300px;
+     background-color:#EEA71B;
+    outline: none;
+    padding-top: 6px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+p{
+    color: white;
+}
+
+@media screen and (max-width:768px){
+    #header{
+        background-color: #F4A100;
+        padding-left: 0px;
+        height: 70vh;
+    }
+
+    #htag{
+        color:#FFFFFF;
+        padding-top: 3vh;
+        text-align: center;
+    }
+    
+    #htag2{
+        color:#FFFFFF;
+        padding-top: 3vh;
+        text-align: center;
+        opacity: 0.5;
+    }
+    #cardinfo{
+        margin-top: 5vh;
+        width: 300px;
+        padding-left: 3rem;
+       
+   }
+   
+}
+@media screen and (max-width:320px){
+   
+   
+    #cardinfo{
+        margin-top: 5vh;
+        width: 320px;
+        /* padding-left: 2rem; */
+       
+   }
+
+}
+
+@media  (min-width: 321px) and (max-width:375px){
+   
+   
+    #cardinfo{
+        margin-top: 5vh;
+        width: 340px;
+        margin-left: 1.2rem;
+   }
+
+}
+
+@media  (min-width: 376px) and (max-width:425px){
+   
+   
+    #cardinfo{
+        margin-top: 5vh;
+        width: 380px;
+        margin-left: 1.2rem;
+   }
+
+}
+
+@media  (min-width: 426px) and (max-width:768px){
+   
+   
+    #cardinfo{
+        margin-top: 5vh;
+        width: 600px;
+        margin-left: 1.2rem;
+
+   }
+
+}
