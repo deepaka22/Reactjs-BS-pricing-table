@@ -4,14 +4,22 @@ import Navbar from './bootstrap-pricing/Navbar';
 import Header from './bootstrap-pricing/Header';
 import Boot from './bootstrap-pricing/Boot';
 import PricingChart from './bootstrap-pricing/Pricingchart';
+import Classcom from './bootstrap-pricing/Classcom';
+import Conditional from './bootstrap-pricing/Conditional';
 function App() {
+
+
   return (
+
+    
     <div className="App">
-      <Navbar/>
+      {/* <Navbar/>
       <Header/>
       <Boot/>
-      <PricingChart/>
-    </div>
+      <PricingChart/> */}
+        <Conditional name = 'ele'></Conditional>
+        {/* <Classcom/> */}
+   </div>
   );
 }
 
