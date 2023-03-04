@@ -1,26 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './bootstrap-pricing/Navbar';
-import Header from './bootstrap-pricing/Header';
-import Boot from './bootstrap-pricing/Boot';
-import PricingChart from './bootstrap-pricing/Pricingchart';
-import Classcom from './bootstrap-pricing/Classcom';
-import Conditional from './bootstrap-pricing/Conditional';
+import React, {component} from 'react';
+import "bootstrap/dist/js/bootstrap";
+import 'bootstrap/dist/css/bootstrap.css'
+import Mainfile from './Components/Mainfile';
+
+
 function App() {
-
-
   return (
-
-    
+  
     <div className="App">
-      {/* <Navbar/>
-      <Header/>
-      <Boot/>
-      <PricingChart/> */}
-        <Conditional name = 'ele'></Conditional>
-        {/* <Classcom/> */}
+
+      <Mainfile/>
+     
    </div>
+  
   );
 }
+
+
+
 
 export default App;
